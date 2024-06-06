@@ -119,6 +119,10 @@ button span:hover{
   width: 100%;
   height: auto;
   transition: all 0.3s ease;
+  transition: t;
+}
+.image:hover {
+  transform: scale(10.5);
 }
 
 .image-container::after {
