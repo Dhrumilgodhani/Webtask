@@ -67,6 +67,135 @@ const Page2 = () => {
           </div>
         </div>
       </div>
+      <div className="">
+        <div className="flex justify-center items-center text-[30px] mt-5">
+          <h1 className="font-bold">From Our Blog </h1>
+        </div>
+        <div className="flex justify-center items-center mt-2">
+          <p>
+            Commodo sociosqu venenatis cras dolor sagittis integer luctus sem
+            primis eget
+          </p>
+        </div>
+
+        <div>
+          <div className="flex justify-evenly items-center p-12 gap-9">
+            <div className="text-start">
+              <div className="flex">
+                <img
+                  className="h-[280px]"
+                  src="public/image/interior1.jpg"
+                  alt=""
+                />
+                <h1 className="ml-4 mt-4 absolute w-36 text-center text-white text-bold bg-orange-500 rounded-md">
+                  CONSTRUCTION
+                </h1>
+                <h1 className="ml-44 mt-4 absolute w-28 text-center text-white text-bold bg-orange-500 rounded-md">
+                  FURNITURE
+                </h1>
+              </div>
+              <div className="flex mt-6">
+                <p className="absolute font-bold text-orange-500">Admin</p>
+                <p className="absolute ml-14 font-bold">.</p>
+                <p className="text-gray-500 ml-16">December 21,2020</p>
+              </div>
+              <h1 className="font-bold text-2xl">
+                Anteposuerit litterarum formas.
+              </h1>
+              <p className="text-gray-500">
+                Ut suscipit velit ultrices dui tempus accumsan. Donec in metus
+                et enim sagittis malesuada id ut eros. Nullam dictum in...
+              </p>
+              <div className="mt-6 flex h-12 w-36 text-center justify-center border-2 cursor-pointer rounded-md items-center hover:text-white bg-white hover:bg-[#ba933e]">
+                <p>Read More</p>
+              </div>
+            </div>
+
+            <div className="text-start">
+              <div className="flex">
+                <img
+                  className="h-[280px]"
+                  src="public/image/interior2.jpg"
+                  alt=""
+                />
+                <h1 className="ml-4 mt-4 absolute w-36 text-center text-white text-bold bg-orange-500 rounded-md">
+                  CONSTRUCTION
+                </h1>
+                <h1 className="ml-44 mt-4 absolute w-20 text-center text-white text-bold bg-orange-500 rounded-md">
+                  TRAVEL
+                </h1>
+              </div>
+              <div className="flex mt-6">
+                <p className="absolute font-bold text-orange-500">Admin</p>
+                <p className="absolute ml-14 font-bold">.</p>
+                <p className="text-gray-500 ml-16">December 20,2020</p>
+              </div>
+              <h1 className="font-bold text-2xl">
+                Stylish color scheme in interior
+              </h1>
+              <p className="text-gray-500">
+                Ut suscipit velit ultrices dui tempus accumsan. Donec in metus
+                et enim sagittis malesuada id ut eros. Nullam dictum in...
+              </p>
+              <div className="mt-6 flex h-12 w-36 text-center justify-center border-2 cursor-pointer rounded-md items-center hover:text-white bg-white hover:bg-[#ba933e]">
+                <p>Read More</p>
+              </div>
+            </div>
+
+            <div className="text-start">
+              <div className="flex">
+                <img
+                  className="h-[280px]"
+                  src="public/image/interior3.jpg"
+                  alt=""
+                />
+                <h1 className="ml-4 mt-4 absolute w-28 text-center text-white text-bold bg-orange-500 rounded-md">
+                  EDUCATION
+                </h1>
+                <h1 className="ml-36 mt-4 absolute w-28 text-center text-white text-bold bg-orange-500 rounded-md">
+                  FURNITURE
+                </h1>
+              </div>
+              <div className="flex mt-6">
+                <p className="absolute font-bold text-orange-500">Admin</p>
+                <p className="absolute ml-14 font-bold">.</p>
+                <p className="text-gray-500 ml-16">December 19,2020</p>
+              </div>
+              <h1 className="font-bold text-2xl">
+                The color scheme for bedrooms
+              </h1>
+              <p className="text-gray-500">
+                Ut suscipit velit ultrices dui tempus accumsan. Donec in metus
+                et enim sagittis malesuada id ut eros. Nullam dictum in...
+              </p>
+              <div className="mt-6 flex h-12 w-36 text-center justify-center border-2 cursor-pointer rounded-md items-center hover:text-white bg-white hover:bg-[#ba933e]">
+                <p>Read More</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex overflow-hidden space-x-16 group">
+            <div className="flex space-x-24 animate-loop-scroll group-hover:paused">
+              <img loading="lazy" src="public//image/brand1.jpg" className="max-w-none h-24" alt="Image 1" />
+              <img loading="lazy" src="public//image/brand2.jpg" className="max-w-none h-24" alt="Image 2" />
+              <img loading="lazy" src="public//image/brand3.jpg" className="max-w-none h-24" alt="Image 3" />
+              <img loading="lazy" src="public//image/brand4.jpg" className="max-w-none h-24" alt="Image 4" />
+              <img loading="lazy" src="public//image/brand5.jpg" className="max-w-none h-24" alt="Image 5" />
+              <img loading="lazy" src="public//image/brand6.jpg" className="max-w-none h-24" alt="Image 6" />
+              <img loading="lazy" src="public//image/brand7.jpg" className="max-w-none h-24" alt="Image 7" />
+            </div>
+            <div className="flex space-x-24 animate-loop-scroll group-hover:paused" aria-hidden="true">
+              <img loading="lazy" src="public//image/brand1.jpg" className="max-w-none h-24" alt="Image 1" />
+              <img loading="lazy" src="public//image/brand2.jpg" className="max-w-none h-24" alt="Image 2" />
+              <img loading="lazy" src="public//image/brand3.jpg" className="max-w-none h-24" alt="Image 3" />
+              <img loading="lazy" src="public//image/brand4.jpg" className="max-w-none h-24" alt="Image 4" />
+              <img loading="lazy" src="public//image/brand5.jpg" className="max-w-none h-24" alt="Image 5" />
+              <img loading="lazy" src="public//image/brand6.jpg" className="max-w-none h-24" alt="Image 6" />
+              <img loading="lazy" src="public//image/brand7.jpg" className="max-w-none h-24" alt="Image 7" />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
 
