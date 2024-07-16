@@ -102,10 +102,10 @@ button span:hover{
     width: 10px;
 }
 ::-webkit-scrollbar-track{
-    background-color: #cccccc;
+    background-color: rgb(204, 204, 204);
 }
 ::-webkit-scrollbar-thumb{
-    background: #999999;
+    background: rgb(153, 153, 153);
     border-radius: 5px;
 }
 

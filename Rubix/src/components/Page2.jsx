@@ -1,4 +1,6 @@
 import React from 'react'
+import Logo_scroll from './Logo_scroll'
+import Footer from './Footer'
 
 const Page2 = () => {
   return (
@@ -174,26 +176,8 @@ const Page2 = () => {
             </div>
           </div>
 
-          <div className="flex overflow-hidden space-x-16 group">
-            <div className="flex space-x-24 animate-loop-scroll group-hover:paused">
-              <img loading="lazy" src="public//image/brand1.jpg" className="max-w-none h-24" alt="Image 1" />
-              <img loading="lazy" src="public//image/brand2.jpg" className="max-w-none h-24" alt="Image 2" />
-              <img loading="lazy" src="public//image/brand3.jpg" className="max-w-none h-24" alt="Image 3" />
-              <img loading="lazy" src="public//image/brand4.jpg" className="max-w-none h-24" alt="Image 4" />
-              <img loading="lazy" src="public//image/brand5.jpg" className="max-w-none h-24" alt="Image 5" />
-              <img loading="lazy" src="public//image/brand6.jpg" className="max-w-none h-24" alt="Image 6" />
-              <img loading="lazy" src="public//image/brand7.jpg" className="max-w-none h-24" alt="Image 7" />
-            </div>
-            <div className="flex space-x-24 animate-loop-scroll group-hover:paused" aria-hidden="true">
-              <img loading="lazy" src="public//image/brand1.jpg" className="max-w-none h-24" alt="Image 1" />
-              <img loading="lazy" src="public//image/brand2.jpg" className="max-w-none h-24" alt="Image 2" />
-              <img loading="lazy" src="public//image/brand3.jpg" className="max-w-none h-24" alt="Image 3" />
-              <img loading="lazy" src="public//image/brand4.jpg" className="max-w-none h-24" alt="Image 4" />
-              <img loading="lazy" src="public//image/brand5.jpg" className="max-w-none h-24" alt="Image 5" />
-              <img loading="lazy" src="public//image/brand6.jpg" className="max-w-none h-24" alt="Image 6" />
-              <img loading="lazy" src="public//image/brand7.jpg" className="max-w-none h-24" alt="Image 7" />
-            </div>
-          </div>
+          <Logo_scroll/>
+          <Footer/>
         </div>
       </div>
     </div>
